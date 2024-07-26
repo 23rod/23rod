@@ -1,4 +1,4 @@
-## Hi there 👋
+Working on my f00king life. You don't give a sh1t.
 
 <!--
 **23rod/23rod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
