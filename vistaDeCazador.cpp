@@ -3,7 +3,6 @@
 #include <string>
 #include <fstream>
 #include <stdlib.h>
-#include <chrono>
 
 using namespace std;
 
@@ -392,8 +391,6 @@ public:
 // #main
 int main()
 {
-    chrono::time_point<chrono::high_resolution_clock> start, end;
-    start = chrono::high_resolution_clock::now();
     int N, M, T;
 
     cin >> N >> M >> T;
@@ -406,8 +403,6 @@ int main()
     imagen.encontrarAreaNormalizadaTotal(0, M, T, 0);
     imagen.mostrarSolucion(M);
     imagen.generarPGM();
-    end = chrono::high_resolution_clock::now();
-    chrono::duration<double, micro> duracion = end - start;
-    cout << "Tiempo de ejecucion: " << duracion.count() << endl;
+    
     return 0;
 }
